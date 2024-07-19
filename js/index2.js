@@ -1,5 +1,5 @@
 const title = document.querySelector('.title')
-const text = 'If death do us apart, I promis to find you in every universe.'.split('')
+const text = 'If death do us apart, I promis to find you in every universe. Dont overthink baby ko, I will always be here for you.'.split('')
 for (let index = 0; index < text.length; index++) {
   if (text[index] !== ' ') {
     title.innerHTML += `<span>${text[index]}<span/>`
